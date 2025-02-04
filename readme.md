@@ -30,22 +30,28 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Flas
     ```
 
 ## Usage
+1. **Provide Your GEMINI API Key**:
+   - Open the [app.py](http://_vscodecontentref_/2) file.
+   - Replace the placeholder `GEMINI_API_KEY` with your actual GEMINI API key.
+     ```python
+     GEMINI_API_KEY = "your_gemini_api_key_here"
+     ```
 
-1. Prepare your data:
+2. Prepare your data:
     - Place your PDF files in the [data](http://_vscodecontentref_/0) folder.
     - Create a [urls.txt](http://_vscodecontentref_/1) file with URLs to scrape text from.
 
-2. Run the [rag_system.py](http://_vscodecontentref_/2) script to process the data and create the FAISS index:
+3. Run the [rag_system.py](http://_vscodecontentref_/2) script to process the data and create the FAISS index:
     ```bash
     python rag_system.py
     ```
 
-3. Start the Flask application:
+4. Start the Flask application:
     ```bash
     python app.py
     ```
 
-4. Open your web browser and navigate to `http://localhost:5000/` to access the homepage and submit queries.
+5. Open your web browser and navigate to `http://localhost:5000/` to access the homepage and submit queries.
 
 ## API Endpoints
 
