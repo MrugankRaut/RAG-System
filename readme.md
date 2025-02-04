@@ -53,7 +53,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Flas
 
 **Description**: Processes user queries, retrieves relevant documents, and generates a response using the GEMINI API.
 
-**Request**:
+
 - **Method**: POST
 - **Content-Type**: application/json
 - **Body**: JSON object containing the user query.
