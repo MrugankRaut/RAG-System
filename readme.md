@@ -14,7 +14,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Flas
 
 1. Clone the repository:
     ```bash
-    [git clone https://github.com/yourusername/rag-system.git](https://github.com/MrugankRaut/RAG-System.git)
+    git clone https://github.com/MrugankRaut/RAG-System.git
     cd rag-system
     ```
 
