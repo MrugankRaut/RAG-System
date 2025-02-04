@@ -7,8 +7,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Flas
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
-- [License](#license)
+
 
 ## Installation
 
