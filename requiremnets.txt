@@ -1,0 +1,8 @@
+flask
+requests
+beautifulsoup4
+transformers
+torch
+faiss-cpu
+numpy
+PyMuPDF
